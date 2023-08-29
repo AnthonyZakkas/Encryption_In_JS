@@ -9,7 +9,7 @@ Encryption.EncryptorRK for a one time pad encryption. if you wish to do so, leav
 and
 Encryption.EncryptionSK for a two key encryption
 
-If you wish to use the RandomKey encryption, with a pregenerated random key, you can replace the null parameter with your key (preferably enclosed in *`* )
+If you wish to use the RandomKey encryption, with a pregenerated random key, you can replace the null parameter with your key (preferably enclosed in ` )
 
 The Decryption process is a bit simpler, as it always requires a key.
 
