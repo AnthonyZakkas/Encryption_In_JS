@@ -5,22 +5,20 @@ A fun little project of making an encryption-decryption algorithm in js
 
 To use this code, you go to the main file and use 
 
-`Encryption.EncryptRK` for a one time pad encryption. if you wish to do so, leave the second parameter as null.
+`Encryption.EncryptRK(plaintext, null, alphabet)` for a one time pad encryption. if you wish to do so, leave the second parameter as null.
 and
-`Encryption.EncryptSK` for a two key encryption
+`Encryption.EncryptSK(plaintext,key1,key2,alphabet)` for a two key encryption
 
 likewise 
-`Decryption.DecryptRK`
+`Decryption.DecryptRK(ciphertext,keyphrase,alphabet)`
 and
-`Decryption.DecryptSK`
+`Decryption.DecryptSK(ciphertext,key1,key2,alphabet)`
 
 If you wish to use the RandomKey encryption, with a pregenerated random key, you can replace the null parameter with your key (preferably enclosed in ` instead of " or ' )
 
 The Decryption process is a bit simpler, as it always requires a key.
 
-The first parameter is always the plaintext/ciphertext and the last parameter is always the used alphabet.
-The inbetween parameters are the keyphrases,
-the used alphabet shouldnt be changed, but the rest can be freely changed.
+The used alphabet shouldnt be changed, but the rest can be freely changed.
 
 
 the supported langauges are basically an excuse for me to add more characters to the "alphabets" string, in order to make the possibility of bruteforce even harder.
