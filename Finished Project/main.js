@@ -7,9 +7,9 @@ const Encryption = require("./encryption");
 const Decryption = require("./decryption");
 
 
-Encryption.EncryptRK(input,null,alphabets);
-Encryption.EncryptSK(input,key1,key2,alphabets);
+Encryption.EncryptRK(input,null,alphabets);  //RK for RandomKey
+Encryption.EncryptSK(input,key1,key2,alphabets);  //SK for SetKey
 
-Decryption.DecryptRK(`set your ciphertext here` , `key goes here`,alphabets);
+Decryption.DecryptRK(`set your ciphertext here` , `key goes here`,alphabets);  //RK for RandomKey
 
-Decryption.DecryptSK(`ciphertext here`, key1,key2,alphabets);
+Decryption.DecryptSK(`ciphertext here`, key1,key2,alphabets);  //SK for SetKey
