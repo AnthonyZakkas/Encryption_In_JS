@@ -7,7 +7,7 @@ To use this code, you go to the main file and use
 
 `Encryption.EncryptRK(plaintext, null, alphabet)` for a one time pad encryption. if you wish to use a set key,it must be a pregenerated one, from `randomKeyphrase(plaintext)` where `plaintext` is your current plaintext.
 and
-`Encryption.EncryptSK(plaintext,key1,key2,alphabet)` for a two key encryption
+`Encryption.EncryptSK(plaintext,key1,key2,alphabet)` for a set key encryption, that can either use one or two keys
 
 likewise 
 `Decryption.DecryptRK(ciphertext,keyphrase,alphabet)`
