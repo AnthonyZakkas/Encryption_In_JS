@@ -11,7 +11,5 @@ Encryption.EncryptRK(input,null,alphabets);
 Encryption.EncryptSK(input,key1,key2,alphabets);
 
 Decryption.DecryptRK(`set your ciphertext here` , `key goes here`,alphabets);
-//ZPÀΪwó(ΔΩSΪΓ€χψJαοuτțfήóΟϋÀ5nμ@)6óó6)@μn5ÀϋΟóήfțτuοαJψχ€ΓΪSΩΔ(ówΪÀPZ
-//ZÀw(ΩΪ€ψαuțήΟÀn@6ó)μ5ϋófτοJχΓSΔóΪP
 
 Decryption.DecryptSK(`ciphertext here`, key1,key2,alphabets);
