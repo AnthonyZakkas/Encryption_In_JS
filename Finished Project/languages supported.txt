@@ -1,0 +1,8 @@
+greek
+english
+italian
+german
+romanian
+albanian
+dutch
+french
