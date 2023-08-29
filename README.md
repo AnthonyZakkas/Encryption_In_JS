@@ -5,7 +5,7 @@ A fun little project of making an encryption-decryption algorithm in js
 
 To use this code, you go to the main file and use 
 
-`Encryption.EncryptRK(plaintext, null, alphabet)` for a one time pad encryption. if you wish to do so, leave the second parameter as null.
+`Encryption.EncryptRK(plaintext, null, alphabet)` for a one time pad encryption. if you wish to use a set key,it must be a pregenerated one, from `randomKeyphrase(plaintext)` where `plaintext` is your current plaintext.
 and
 `Encryption.EncryptSK(plaintext,key1,key2,alphabet)` for a two key encryption
 
